@@ -34,22 +34,5 @@ def delete_duck(id: int): # defines delete_duck dunction with parameter id
    return ducks # returns duck list
 
 
-# @app.put("/ducks/{duck_name}") 
-# async def update_duck(duck_name: str, updated_duck: Duck):
-#     for index, duck in enumerate(ducks):
-#         if duck.name == duck_name:
-#             ducks[index] = updated_duck
-#             logger.info(f"Updated duck: {duck_name}")
-#             return {"message": "Duck updated!"}
-#     return {"error": "Duck not found"}, 404
-
-# @app.delete("/ducks/{duck_name}")
-# async def delete_duck(duck_name: str):
-#     for index, duck in enumerate(ducks):
-#         if duck.name == duck_name:
-#             deleted_duck = ducks.pop(index)
-#             logger.info(f"Deleted duck: {duck_name}")
-#             return {"message": "Duck deleted!"}
-#     return {"error": "Duck not found"}, 404
 
 #look through code, write tests (run on port 8000, tests use python request library)put endpoint (update duck - change name), delete endpoint (delete a duck)
