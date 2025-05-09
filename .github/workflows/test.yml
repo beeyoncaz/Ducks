@@ -31,4 +31,4 @@ jobs:
           sleep 3  # give it time to start
 
       - name: Run Pytest
-        run: pytest tests/test_duck.py
+        run: pytest 
