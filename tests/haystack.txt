@@ -1,0 +1,6 @@
+haystack
+hello world
+i am nico
+this is madman
+
+grep "h" haystack.txt
